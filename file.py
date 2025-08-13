@@ -1,3 +1,5 @@
+#SC MAKE BY HABIB HOSSAIN
+#WORKING SCRIPT SELLER
 #__________________IMPORT____________#
 import os,random
 import sys,time,uuid
@@ -53,24 +55,25 @@ def sex():
 	density = random.choice(['1.0', '1.5', '2.0', '2.5', '3.0'])
 	width = random.choice(["720", "1080", "1280"])
 	height = random.choice(["720", "1080", "1280", "1440", "1920"])
-	fbcr = random.choice(['Jio', 'Vi india', 'Airtel', 'Jio 5G', 'Airtel'])
+	fbcr = random.choice(['Nepal_Telecom', 'Banglalink', 'Robi', 'Grameenphone', 'Airtel'])
 	fblc = random.choice(["en-in","pt-BR","ru-ru","en-gb","en-us","zh-cn","zh-tw","en-US","es-mx"])
-	fbbd = 'Realme'
+	fbbd = 'Xiaomi'
 	fbpn = random.choice(["com.facebook.katana"])
 	fbsv = f"{random.randint(4, 13)}.{random.randint(0, 5)}.{random.randint(1, 5)}"
 	fbmf = 'Xiaomi'
-	build = random.choice(["RMX3785","OPPO17PRO","OPPO A5","RMX3720","TP1A.05.001","LRX21M","RP1A.200720.011","RKQ1.211119.001","PKQ1.190714.001","UP1A.231005.007","QP1A.190711.020","PPR1.180610.011","SP1A.210812.016","TP1A.220905.001","LMY47V","QKQ1.200614.002","COS76I","RRL95K","MRA58K","LMY47I","XAM72A","LXY88Z","MXH54S","UNS97S","TAT94S","SWD86W","RGK58F","YBM98Y","N6F26Q","O11019","JLS36C","JWR66Y","GRK39F","SKYW1908301CN00MP6","GRI40","MBFMIEK","KASE2208050OS00MP4","NJH47F","N2G47H"])
-	fbdv = random.choice(["Realme 11X","Realme","Realme 11X 5G","Realme Narzo","Black Shark 2Pro","M2010J19SY","M2007J1SC","Redmi K20 Pro","Realme Nazro","Note 16 Pro","2311DRK48C","2207122MC","Redmi 10 5G","2201123G","MI NOTE LTE","Mi 11 LE","23028RN4DG","K60E","QIN3ULTRA","21091116UI","Redmi 10I","M2004J7AC","HM 1S","Redmi 5 pro,","Redmi 5Plus","Redmi 85781","2201116SI", "M2012K11AI", "22011119TI", "21091116UI", "M2102K1AC", "M2012K11I", "22041219I", "22041216I", "2203121C", "2106118C", "2201123G", "2203129G", "2201122G", "2201122C", "2206122SC", "22081212C", "2112123AG", "2112123AC", "2109119BC", "M2002J9G", "M2007J1SC", "M2007J17I", "M2102J2SC", "M2007J3SY", "M2007J17G", "M2007J3SG", "M2011K2G", "M2101K9AG ", "M2101K9R", "2109119DG", "M2101K9G", "2109119DI", "M2012K11G", "M2102K1G", "21081111RG", "2107113SG", "21051182G", "M2105K81AC", "M2105K81C", "21061119DG", "21121119SG", "22011119UY", "21061119AG", "21061119AL", "22041219NY", "22041219G", "21061119BI", "220233L2G", "220233L2I", "220333QNY", "220333QAG", "M2004J7AC", "M2004J7BC", "M2004J19C", "M2006C3MII", "M2010J19SI", "M2006C3LG", "M2006C3LVG", "M2006C3MG", "M2006C3MT", "M2006C3MNG", "M2006C3LII", "M2010J19SL", "M2010J19SG", "M2010J19SY", "M2012K11AC", "M2012K10C", "M2012K11C", "22021211RC"])
+	build = random.choice(["KTU84P","KRT16S","MMB29M","RP1A.200720.011","TP1A.05.001","LRX21M","RP1A.200720.011","RKQ1.211119.001","PKQ1.190714.001","UP1A.231005.007","QP1A.190711.020","PPR1.180610.011","SP1A.210812.016","TP1A.220905.001","LMY47V","QKQ1.200614.002","COS76I","RRL95K","MRA58K","LMY47I","XAM72A","LXY88Z","MXH54S","UNS97S","TAT94S","SWD86W","RGK58F","YBM98Y","N6F26Q","O11019","JLS36C","JWR66Y","GRK39F","SKYW1908301CN00MP6","GRI40","MBFMIEK","KASE2208050OS00MP4","NJH47F","N2G47H"])
+	fbdv = random.choice(["22126RN91Y","2212ARNC4L","22120RN86G","22120RN86C","Black Shark 2Pro","M2010J19SY","M2007J1SC","Redmi K20 Pro","M2101K6G","Note 16 Pro","2311DRK48C","2207122MC","Redmi 10 5G","2201123G","MI NOTE LTE","Mi 11 LE","23028RN4DG","K60E","QIN3ULTRA","21091116UI","Redmi 10I","M2004J7AC","HM 1S","Redmi 5 pro,","Redmi 5Plus","Redmi 85781","2201116SI", "M2012K11AI", "22011119TI", "21091116UI", "M2102K1AC", "M2012K11I", "22041219I", "22041216I", "2203121C", "2106118C", "2201123G", "2203129G", "2201122G", "2201122C", "2206122SC", "22081212C", "2112123AG", "2112123AC", "2109119BC", "M2002J9G", "M2007J1SC", "M2007J17I", "M2102J2SC", "M2007J3SY", "M2007J17G", "M2007J3SG", "M2011K2G", "M2101K9AG ", "M2101K9R", "2109119DG", "M2101K9G", "2109119DI", "M2012K11G", "M2102K1G", "21081111RG", "2107113SG", "21051182G", "M2105K81AC", "M2105K81C", "21061119DG", "21121119SG", "22011119UY", "21061119AG", "21061119AL", "22041219NY", "22041219G", "21061119BI", "220233L2G", "220233L2I", "220333QNY", "220333QAG", "M2004J7AC", "M2004J7BC", "M2004J19C", "M2006C3MII", "M2010J19SI", "M2006C3LG", "M2006C3LVG", "M2006C3MG", "M2006C3MT", "M2006C3MNG", "M2006C3LII", "M2010J19SL", "M2010J19SG", "M2010J19SY", "M2012K11AC", "M2012K10C", "M2012K11C", "22021211RC"])
 	END = f"[FBAN/{str(fban)};FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/{str(fblc)};FBCR/{str(fbcr)};FBMF/{str(fbmf)};FBBD/{str(fbbd)};FBPN/{str(fbpn)};FBDV/{str(fbdv)};FBSV/{str(fbsv)};FBOP/1;FBCA/armeabi-v7a:armeabi;]"
 	ua = f'Davik/2.1.0 (Linux; U; Android {str(fbsv)}; {str(fbdv)} Build/'+str(build)+') '+END
 	return ua 
     
 #__________________LOGO____________#
-logo=(f"""   
-   ____               _  _____  _ __       
-  / __/__  ___  __ __| |/_/ _ \(_) /  __ __
- _\ \/ _ \/ _ \/ // />  </ ___/ / _ \/ // /
-/___/\___/_//_/\_,_/_/|_/_/  /_/_//_/\_,_/ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+logo=(f"""{X2}██   ██{G1} ██    ██ {A}███████  {M} ███████   
+{X2} ██ ██ {G1}  ██  ██  {A}██   ██  {M} ██   ██ 
+{X2}  ███    {G1} ████   {A}███████  {M} ███████ 
+ {X2}██ ██  {G1}   ██    {A}██ ██    {M} ██   ██ 
+{X2}██   ██    {G1}██    {A}██   ██  {M} ██   ██ 
+{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 {G1}[{A}≈{G1}]{G1} DEVELOPER {A}➢{A} XYRAA 
 {G1}[{A}≈{G1}]{G1} TOOLTYPE  {A}➢{A} FILE 
 {G1}[{A}≈{G1}]{G1} VERSION   {A}➢ 0.0
@@ -203,4 +206,4 @@ def M1(ids,names,psd):
     except Exception as e:
         pass
 if __name__ == '__main__':
-    Menu()
+    menu()
