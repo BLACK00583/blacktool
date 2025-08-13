@@ -203,4 +203,4 @@ def M1(ids,names,psd):
     except Exception as e:
         pass
 if __name__ == '__main__':
-    menu()
+    Menu()
